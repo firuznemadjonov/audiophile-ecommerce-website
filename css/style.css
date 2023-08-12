@@ -306,4 +306,168 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+img {
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover; /* contain */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v14-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/manrope-v14-latin-500.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/manrope-v14-latin-700.woff2") format("woff2");
+}
+body {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.66;
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 1.03;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1.1;
+  letter-spacing: 1.4px;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 1.12;
+  letter-spacing: 1.4px;
+}
+
+h4 {
+  font-size: 2.8rem;
+  line-height: 1.12;
+  letter-spacing: 1.4px;
+}
+
+h5 {
+  font-size: 2.4rem;
+  line-height: normal;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 1.8rem;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.btn {
+  padding: 1.5rem 3.1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.brown-btn {
+  background-color: #D87D4A;
+  color: #FFFFFF;
+}
+
+.brown-btn:hover {
+  background-color: #FBAF85;
+}
+
+.black-btn {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.black-btn:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.shop-btn__inner-wrapper {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.shop-btn__text {
+  color: #000000;
+  opacity: 0.5;
+}
+
+.shop-btn__icon img {
+  width: 5px;
+  height: 10px;
+}
+
+.shop-btn:hover .shop-btn__text {
+  color: #D87D4A;
+  opacity: 1;
+}
+
+main {
+  flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */
