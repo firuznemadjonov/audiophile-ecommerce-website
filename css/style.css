@@ -552,6 +552,9 @@ h6 {
   .site-logo {
     margin-right: 0;
   }
+  .header__nav__container {
+    margin-right: 0;
+  }
 }
 main {
   flex-grow: 1;
