@@ -47,3 +47,22 @@ body {
     padding-left: 5rem; // *
     padding-right: 5rem;// *
 }
+
+@media screen and (max-width:610px) {
+    .container {
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+    }
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 100%;
+}
+
+.overline {
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
